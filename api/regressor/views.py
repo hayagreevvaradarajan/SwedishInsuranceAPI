@@ -12,5 +12,5 @@ class call_model(APIView):
             numberOfClaims = request.GET.get('numberofclaims')
             prediction = RegressorConfig.regressor.predict([[numberOfClaims]])
             prediction = prediction.tolist()
-            response = {'total_money' : str(prediction[0])+" SEK"}
+            response = {'total_money' : str(prediction[0])}
             return JsonResponse(response)
