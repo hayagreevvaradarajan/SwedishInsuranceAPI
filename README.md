@@ -27,6 +27,8 @@ Recreate the virtual environment, activate the virtual environment using 'conda 
 
 Run the manage.py file using the command 'python manage.py runserver'. This will activate your local web server at the URL http://127.0.0.1:8000/. 
 
+If you don't want to recreate the exact virtual environment, then install the required packages from the requirements.txt file either using 'pip install -r requirements.txt' or using 'conda install --file requirements.txt'.
+
 Testing the API:
 
 Open your browser and type the URL 'http://127.0.0.1:8000/regressor?numberofclaims=xx' (replace xx in the URL with a number of your choice) or type the command curl -X GET http://127.0.0.1:8000/regressor?numberofclaims=xx ((replace xx in the URL with a number of your choice) in the command line.
