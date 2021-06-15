@@ -1,1 +1,1 @@
-web : gunicorn swedishInsuranceAPI.wsgi
+web : gunicorn api.wsgi
