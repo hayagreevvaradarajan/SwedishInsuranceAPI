@@ -2,7 +2,7 @@
 # $ conda create --name <env> --file <this file>
 # platform: linux-64
 asgiref==3.3.4
-ca-certificates==2021.5.25=h06a4308_1
+ca-certificates==2021.5.25
 certifi==2021.5.30
 chardet==4.0.0
 django==3.2.4
@@ -21,13 +21,13 @@ numpy==1.20.3
 openssl==1.1.1k
 pip==21.1.2
 python==3.9.5
-python-dateutil=1.5=pypi_0
+python-dateutil=1.5
 pytz==2021.1
 readline==8.1
 requests==2.25.1
 scikit-learn==0.24.2
 scipy==1.6.3
-setuptools==52.0.0=
+setuptools==52.0.0
 sklearn==0.0
 sqlite==3.35.4
 sqlparse==0.4.1
